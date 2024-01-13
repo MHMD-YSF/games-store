@@ -1,0 +1,83 @@
+(function($){
+    var setActive = function() {
+        var self = $(this);
+
+        // REMOVE ANY ACTIVE STATES
+        $('.footer-socialmedia').removeClass('active');
+        
+        // SET CURRENT ACTIVE STATE
+        self.addClass('active');
+    };
+
+    var scrollHandler = function() {
+        $("html, body").animate({ scrollTop: 0 }, 600);
+    }
+
+    var init = function(){
+        $('.footer-socialmedia').on('click', setActive);
+
+        $('.scroll-top').on('click', scrollHandler);
+    };
+
+    $(init);
+
+}(jQuery));
+
+var ATVI = ATVI || {};
+
+(function($, ATVI) {
+
+	var ld = ATVI.localeDetector;
+
+    var init = function() {
+		if (ld.region && ld.region == 'ca') addPrivacyLink();
+        else {
+			document.addEventListener('localeDetectionReady', function() {
+                if (ld.region == 'ca') addPrivacyLink();
+            });
+        }
+    };
+
+    var addPrivacyLink = function() {
+        var anchor = $('<a/>', { 'class': 'footer-ext-link', 'href':'https://support.activision.com/privacyrequest?st=ca', 'text': 'Do Not Sell My Personal Information', 'target': '_blank' }),
+            item = $('<li/>');
+        item.append(anchor);
+        item.addClass("ds-item");
+        $('.footer-links .footer-col-4 ul').append(item);
+    };
+
+    $(init);
+
+})(jQuery, ATVI);
+(function ($, ATVI) {
+    var init = function () {
+        initFooterAnalytics();
+    };
+
+    var initFooterAnalytics = function () {
+        document
+            .querySelectorAll(".footer-socialmedia-list a[data-label]")
+            .forEach(function (node) {
+                node.addEventListener("click", function (e) {
+                    updateDataLayer($(this), $(this).attr("href"), "social", this.dataset.label);
+                });
+            });
+    };
+
+    var updateDataLayer = function ($el, labelStr, catStr, actionStr) {
+        if (dataLayer) {
+            var obj = {};
+            labelStr = labelStr || "";
+            obj.event = "event";
+            obj.category = catStr;
+            obj.action = actionStr;
+            obj.label = labelStr;
+            obj.destinationURL = $el.attr("href");
+            obj.pageURL = window.location.href;
+            dataLayer.push(obj);
+        }
+    };
+
+    $(init);
+})(jQuery, ATVI);
+

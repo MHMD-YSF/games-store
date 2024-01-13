@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+/*******************************************************************
+DIN NEXT Font
+*******************************************************************/
+.section-header {
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 30px auto 30px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+}
+.noise-gif {
+  content: "";
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  opacity: .17;
+  background-image: url('../../../../../../../../../../content/dam/atvi/callofduty/cod-touchui/kronos/home/common/noise-gif-square-anim.gif');
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 10;
+}
+@keyframes arrow {
+  0% {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+    -webkit-transform: translate(0, 2px);
+    -moz-transform: translate(0, 2px);
+    -ms-transform: translate(0, 2px);
+    -o-transform: translate(0, 2px);
+    transform: translate(0, 2px);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: translate(0, 8px);
+    -moz-transform: translate(0, 8px);
+    -ms-transform: translate(0, 8px);
+    -o-transform: translate(0, 8px);
+    transform: translate(0, 8px);
+  }
+  75%,
+  100% {
+    -webkit-transform: translate(0, 10px);
+    -moz-transform: translate(0, 10px);
+    -ms-transform: translate(0, 10px);
+    -o-transform: translate(0, 10px);
+    transform: translate(0, 10px);
+    opacity: 0;
+  }
+}
+#about-our-games {
+  margin: 100px 0;
+}
+#recent-our-games .inner-container {
+  width: 100%;
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+#recent-our-games .game-list {
+  display: -moz-box;
+  display: -ms-flexbox;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  display: -webkit-box;
+  justify-content: center;
+  -webkit-box-lines: multiple;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+#recent-our-games .game-entry {
+  width: 23%;
+  margin-bottom: 25px;
+  margin-right: 20px;
+  position: relative;
+  padding-top: 10px;
+  overflow: hidden;
+}
+#recent-our-games .game-entry a {
+  display: block;
+  overflow: hidden;
+  text-decoration: none;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+#recent-our-games .game-entry .game-cover-container {
+  height: 0;
+  padding-bottom: 125%;
+  width: 100%;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-bottom: 12px;
+}
+#recent-our-games .game-entry .game-cover {
+  width: 100%;
+  height: 0;
+  padding-bottom: 125%;
+  background: #FFF;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  background-size: cover;
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
+  transform: scale(1.02);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+#recent-our-games .game-entry .game-cover:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
+}
+#recent-our-games .game-entry .title {
+  font-size: 16px;
+  line-height: 1.4em;
+  text-transform: uppercase;
+  font-family: 'DIN Next LT Pro', Arial, sans-serif;
+  font-weight: bold;
+  color: #FFF;
+}
+#recent-our-games .game-entry .title span {
+  display: block;
+}
+#recent-our-games .game-entry .rating {
+  text-transform: uppercase;
+  padding: 4px 0 2px;
+}
+#recent-our-games .game-entry .rating p {
+  color: #b3b6b7;
+  font-size: 14px !important;
+}
+@media screen and (max-width: 768px) {
+  #recent-our-games .game-list .game-entry {
+    width: 46%;
+    margin-right: 4%;
+  }
+  #recent-our-games .game-list .game-entry:nth-child(even) {
+    margin-right: 0;
+  }
+  #recent-our-games .game-list .game-entry .game-cover {
+    padding-bottom: 130%;
+    height: auto;
+  }
+  #recent-our-games .game-list .game-entry .title {
+    font-size: 14px;
+  }
+  #recent-our-games .game-list .game-entry .rating p {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  #recent-our-games .inner-container {
+    max-width: 100%;
+    padding: 0;
+  }
+}

@@ -1,0 +1,692 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+/*******************************************************************
+DIN NEXT Font
+*******************************************************************/
+.section-header {
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 30px auto 30px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+}
+.noise-gif {
+  content: "";
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  opacity: .17;
+  background-image: url('../../../../../../../../../content/dam/atvi/callofduty/cod-touchui/kronos/home/common/noise-gif-square-anim.gif');
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 10;
+}
+@keyframes arrow {
+  0% {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+    -webkit-transform: translate(0, 2px);
+    -moz-transform: translate(0, 2px);
+    -ms-transform: translate(0, 2px);
+    -o-transform: translate(0, 2px);
+    transform: translate(0, 2px);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: translate(0, 8px);
+    -moz-transform: translate(0, 8px);
+    -ms-transform: translate(0, 8px);
+    -o-transform: translate(0, 8px);
+    transform: translate(0, 8px);
+  }
+  75%,
+  100% {
+    -webkit-transform: translate(0, 10px);
+    -moz-transform: translate(0, 10px);
+    -ms-transform: translate(0, 10px);
+    -o-transform: translate(0, 10px);
+    transform: translate(0, 10px);
+    opacity: 0;
+  }
+}
+body {
+  background: #000;
+}
+.atvi-column-layout h1,
+.atvi-column-layout h2,
+.atvi-column-layout h3,
+.atvi-column-layout p {
+  color: #FFF;
+}
+.atvi-column-layout h1,
+.atvi-column-layout h2,
+.atvi-column-layout h3 {
+  font-family: 'DIN Next LT Pro', Arial, sans-serif;
+  font-weight: bold;
+}
+.atvi-column-layout h2 {
+  font-size: 34px;
+  line-height: 40.8px;
+  border-bottom: 1px solid #595b5b;
+  padding-bottom: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.atvi-column-layout h3 {
+  font-size: 24px;
+  line-height: 28.8px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.atvi-column-layout p {
+  font-family: 'DIN Next LT Pro', Arial, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #FFF;
+  margin-bottom: 15px;
+}
+.atvi-column-layout b,
+.atvi-column-layout strong {
+  font-weight: bold;
+}
+.atvi-column-layout .atvi-column-inner-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+#atvi-joinus-child-resource-2 h2 {
+  text-align: left;
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+/*******************************************************************
+DIN NEXT Font
+*******************************************************************/
+.section-header {
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 30px auto 30px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+}
+.noise-gif {
+  content: "";
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  opacity: .17;
+  background-image: url('../../../../../../../../../content/dam/atvi/callofduty/cod-touchui/kronos/home/common/noise-gif-square-anim.gif');
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 10;
+}
+@keyframes arrow {
+  0% {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+    -webkit-transform: translate(0, 2px);
+    -moz-transform: translate(0, 2px);
+    -ms-transform: translate(0, 2px);
+    -o-transform: translate(0, 2px);
+    transform: translate(0, 2px);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: translate(0, 8px);
+    -moz-transform: translate(0, 8px);
+    -ms-transform: translate(0, 8px);
+    -o-transform: translate(0, 8px);
+    transform: translate(0, 8px);
+  }
+  75%,
+  100% {
+    -webkit-transform: translate(0, 10px);
+    -moz-transform: translate(0, 10px);
+    -ms-transform: translate(0, 10px);
+    -o-transform: translate(0, 10px);
+    transform: translate(0, 10px);
+    opacity: 0;
+  }
+}
+#about-people {
+  padding: 75px 15px 150px;
+  display: none;
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+/*******************************************************************
+DIN NEXT Font
+*******************************************************************/
+.section-header {
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 30px auto 30px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+}
+.noise-gif {
+  content: "";
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  opacity: .17;
+  background-image: url('../../../../../../../../../content/dam/atvi/callofduty/cod-touchui/kronos/home/common/noise-gif-square-anim.gif');
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 10;
+}
+@keyframes arrow {
+  0% {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+    -webkit-transform: translate(0, 2px);
+    -moz-transform: translate(0, 2px);
+    -ms-transform: translate(0, 2px);
+    -o-transform: translate(0, 2px);
+    transform: translate(0, 2px);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: translate(0, 8px);
+    -moz-transform: translate(0, 8px);
+    -ms-transform: translate(0, 8px);
+    -o-transform: translate(0, 8px);
+    transform: translate(0, 8px);
+  }
+  75%,
+  100% {
+    -webkit-transform: translate(0, 10px);
+    -moz-transform: translate(0, 10px);
+    -ms-transform: translate(0, 10px);
+    -o-transform: translate(0, 10px);
+    transform: translate(0, 10px);
+    opacity: 0;
+  }
+}
+#about-hero {
+  padding-bottom: 35%;
+  margin-top: 0;
+  -webkit-transition: 0.5s all;
+  -moz-transition: 0.5s all;
+  -ms-transition: 0.5s all;
+  -o-transition: 0.5s all;
+  transition: 0.5s all;
+}
+@media screen and (max-width: 1024px) {
+  #about-hero {
+    margin-top: 50px;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+/*******************************************************************
+DIN NEXT Font
+*******************************************************************/
+.section-header {
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 30px auto 30px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+}
+.noise-gif {
+  content: "";
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  opacity: .17;
+  background-image: url('../../../../../../../../../content/dam/atvi/callofduty/cod-touchui/kronos/home/common/noise-gif-square-anim.gif');
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 10;
+}
+@keyframes arrow {
+  0% {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+    -webkit-transform: translate(0, 2px);
+    -moz-transform: translate(0, 2px);
+    -ms-transform: translate(0, 2px);
+    -o-transform: translate(0, 2px);
+    transform: translate(0, 2px);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: translate(0, 8px);
+    -moz-transform: translate(0, 8px);
+    -ms-transform: translate(0, 8px);
+    -o-transform: translate(0, 8px);
+    transform: translate(0, 8px);
+  }
+  75%,
+  100% {
+    -webkit-transform: translate(0, 10px);
+    -moz-transform: translate(0, 10px);
+    -ms-transform: translate(0, 10px);
+    -o-transform: translate(0, 10px);
+    transform: translate(0, 10px);
+    opacity: 0;
+  }
+}
+#about-leadership-team {
+  margin-top: 100px;
+}
+#about-leadership-team #leadership-list {
+  display: -moz-box;
+  display: -ms-flexbox;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  display: -webkit-box;
+  justify-content: space-between;
+  -webkit-box-lines: multiple;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+#about-leadership-team #leadership-list .atvi-text-image {
+  width: 30%;
+  margin: 0 auto 50px;
+}
+@media screen and (max-width: 768px) {
+  #about-leadership-team #leadership-list .atvi-text-image {
+    width: 48%;
+  }
+}
+#about-leadership-team #leadership-list .atvi-text-image img {
+  width: 80% !important;
+  border-radius: 50%;
+  margin: 0 auto 15px;
+}
+#about-leadership-team #leadership-list .atvi-text-image p {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+/*******************************************************************
+DIN NEXT Font
+*******************************************************************/
+.section-header {
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 30px auto 30px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+}
+.noise-gif {
+  content: "";
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  opacity: .17;
+  background-image: url('../../../../../../../../../content/dam/atvi/callofduty/cod-touchui/kronos/home/common/noise-gif-square-anim.gif');
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 10;
+}
+@keyframes arrow {
+  0% {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+    -webkit-transform: translate(0, 2px);
+    -moz-transform: translate(0, 2px);
+    -ms-transform: translate(0, 2px);
+    -o-transform: translate(0, 2px);
+    transform: translate(0, 2px);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: translate(0, 8px);
+    -moz-transform: translate(0, 8px);
+    -ms-transform: translate(0, 8px);
+    -o-transform: translate(0, 8px);
+    transform: translate(0, 8px);
+  }
+  75%,
+  100% {
+    -webkit-transform: translate(0, 10px);
+    -moz-transform: translate(0, 10px);
+    -ms-transform: translate(0, 10px);
+    -o-transform: translate(0, 10px);
+    transform: translate(0, 10px);
+    opacity: 0;
+  }
+}
+#about-our-story {
+  padding: 150px 15px;
+  background: #000;
+}
+@media screen and (max-width: 1024px) {
+  #about-our-story {
+    padding-top: 50px;
+  }
+}
+#about-our-story #about-our-story-child-resource-1 .atvi-text:nth-child(2) {
+  margin-top: 100px;
+}
+#about-our-story #about-our-story-child-resource-1 a {
+  color: #FFF;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+/*******************************************************************
+DIN NEXT Font
+*******************************************************************/
+.section-header {
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 30px auto 30px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+}
+.noise-gif {
+  content: "";
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  opacity: .17;
+  background-image: url('../../../../../../../../../content/dam/atvi/callofduty/cod-touchui/kronos/home/common/noise-gif-square-anim.gif');
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 10;
+}
+@keyframes arrow {
+  0% {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+    -webkit-transform: translate(0, 2px);
+    -moz-transform: translate(0, 2px);
+    -ms-transform: translate(0, 2px);
+    -o-transform: translate(0, 2px);
+    transform: translate(0, 2px);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: translate(0, 8px);
+    -moz-transform: translate(0, 8px);
+    -ms-transform: translate(0, 8px);
+    -o-transform: translate(0, 8px);
+    transform: translate(0, 8px);
+  }
+  75%,
+  100% {
+    -webkit-transform: translate(0, 10px);
+    -moz-transform: translate(0, 10px);
+    -ms-transform: translate(0, 10px);
+    -o-transform: translate(0, 10px);
+    transform: translate(0, 10px);
+    opacity: 0;
+  }
+}
+#about-our-studios {
+  margin-bottom: 100px;
+}
+#about-our-studios #studio-list {
+  display: -moz-box;
+  display: -ms-flexbox;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  display: -webkit-box;
+  justify-content: space-between;
+  -webkit-box-lines: multiple;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+#about-our-studios #studio-list .atvi-image {
+  width: 26%;
+  margin-bottom: 50px;
+}
+#about-our-studios #studio-list .atvi-image img {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  opacity: .5;
+  -webkit-transition: 0.25s all;
+  -moz-transition: 0.25s all;
+  -ms-transition: 0.25s all;
+  -o-transition: 0.25s all;
+  transition: 0.25s all;
+}
+#about-our-studios #studio-list .atvi-image img:hover {
+  opacity: 1;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+/*******************************************************************
+DIN NEXT Font
+*******************************************************************/
+.section-header {
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 30px auto 30px;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 700;
+}
+.noise-gif {
+  content: "";
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  opacity: .17;
+  background-image: url('../../../../../../../../../content/dam/atvi/callofduty/cod-touchui/kronos/home/common/noise-gif-square-anim.gif');
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 10;
+}
+@keyframes arrow {
+  0% {
+    -webkit-transform: translate(0, 0);
+    -moz-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0);
+    opacity: 0;
+  }
+  25% {
+    opacity: 1;
+    -webkit-transform: translate(0, 2px);
+    -moz-transform: translate(0, 2px);
+    -ms-transform: translate(0, 2px);
+    -o-transform: translate(0, 2px);
+    transform: translate(0, 2px);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: translate(0, 8px);
+    -moz-transform: translate(0, 8px);
+    -ms-transform: translate(0, 8px);
+    -o-transform: translate(0, 8px);
+    transform: translate(0, 8px);
+  }
+  75%,
+  100% {
+    -webkit-transform: translate(0, 10px);
+    -moz-transform: translate(0, 10px);
+    -ms-transform: translate(0, 10px);
+    -o-transform: translate(0, 10px);
+    transform: translate(0, 10px);
+    opacity: 0;
+  }
+}
+#about-our-values {
+  margin-bottom: 50px;
+}
+#about-our-values #values-wheel-container img {
+  width: 100%;
+}
+#about-our-values a {
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 1.1;
+  border: 1px solid transparent;
+  padding: 1em 0;
+  border-radius: 24px;
+  margin: auto;
+  display: block;
+  text-align: center;
+  transition: box-shadow 250ms ease-out, border 300ms ease-out, background 300ms ease-out;
+  box-shadow: inset 0 0 0 1px #ffffff;
+  font-family: 'DIN Next LT Pro', Arial, sans-serif;
+  font-weight: bold;
+  background: rgba(7, 104, 175, 0.5);
+  box-shadow: inset 0 0 0 1px #0768af;
+  width: 225px;
+}
+#about-our-values a:hover,
+#about-our-values a:active {
+  background: rgba(7, 104, 175, 0.7);
+  border: 1px solid #0768af;
+  box-shadow: inset 0 0 0 2px #0768af;
+}
+#about-our-values #values-list {
+  display: -moz-box;
+  display: -ms-flexbox;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  display: -webkit-box;
+  justify-content: center;
+  -webkit-box-lines: multiple;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  #about-our-values #values-list {
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+}
+#about-our-values #values-list > .atvi-text-image {
+  width: 30%;
+  margin: 0 1.5% 50px;
+  text-align: center;
+}
+@media screen and (max-width: 768px) {
+  #about-our-values #values-list > .atvi-text-image {
+    width: 100%;
+    margin: 0 0 30px;
+  }
+}
+#about-our-values #values-list > .atvi-text-image .value-img {
+  height: 90px;
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 768px) {
+  #about-our-values #values-list > .atvi-text-image .value-img {
+    height: auto;
+  }
+}
+#about-our-values #values-list > .atvi-text-image img {
+  width: 50% !important;
+  margin: 0 auto;
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  #about-our-values #values-list > .atvi-text-image img {
+    width: 100%;
+  }
+}
+

@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial;
+}
+
+/* Links inside the navbar */
+
+
+
+
+/* Dropdown button */
+ .dropbtn {
+  
+  border: none;
+  outline: none;
+  color: transparent;
+ 
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+	border: none;
+	outline: none;
+  display: none;
+  position: absolute;
+  background-color: transparent;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: black;
+ 
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+ 
+
+header {
+	background: rgba(0,0,0,40%);
+	width: 100%;
+	position: fixed;
+	z-index: 999;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 100px 10px 50px;
+	border-bottom: 1px solid #fff;
+}
+.card a{
+	text-decoration: none; 
+	color: black;
+}
+
+.dropdown{
+	color: #7BC42D;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 1.1em;
+	padding-left: 20px;
+	width:6em;
+	
+}
+.navigation a {
+	color: #7BC42D;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 1.1em;
+	padding-left: 20px;
+	width:6em;
+}
+.navigation a:hover {
+	color: white;
+}
+.dropdown-content :hover {
+	background-color: none;
+}
+section{
+	padding: 100px 200px;
+}
+.main{
+	width: 100%;
+	min-height: 100vh;
+	display:  flex;
+	align-items: center;
+	background: url(images/cod2.jpeg)no-repeat;
+	background-size: cover;
+	background-position:center;
+	background-attachment: fixed;
+}.main h2{
+	color: white;
+	font-size: 1.5em;
+	font-weight: 500;
+}.main h2 span{
+	display: inline-block;
+	margin-top: 10px;
+	color: #7BC42D;
+	font-size: 1.5em;
+	font-weight: 600;
+}.main h3{
+	color: white;
+	font-size: 1.5em;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+}.main-btn{
+	color: white;
+	background-color: #7BC42D;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: 600;
+	display: inline-block;
+	padding: 0.9375em 2.1875em;
+	letter-spacing: 1px;
+	border-radius: 15px;
+	margin-bottom: 40px;
+	transition: 0.9s ease;
+}.main-btn:hover{
+	background-color: rgb(186, 135, 6);
+transform: scale(1.1);
+}.social-icons a{
+	color :white;
+	font-size: 1.7em;
+	padding-right: 030px;
+}
+.title{
+	display:flex;
+	justify-content: center;
+	color: #7BC42D;
+	font-size:2.2em;
+	font-weight:800;
+	margin-bottom: 30px;
+}
+.content{
+	display:flex;
+	justify-content: center;
+	flex-direction: row;
+	
+	flex-wrap:wrap ;
+}.cardss{
+	margin-top: 10px;
+	background-color: black;
+	border-bottom: 1.5px solid #595b5b;
+	border-bottom-left-radius: 20%;
+	border-bottom-right-radius: 20%;
+	border-top-left-radius: 20%;
+	border-top-right-radius: 20%;
+}
+.cards{
+	background-color: black;
+}
+.card{
+background-color: aliceblue;
+width:21.25em;
+box-shadow: 0 5px 25px rgba(1 1 1/15%);
+border-radius: 10px;
+padding: 25px;
+margin: 15px;
+transition: 0.7s ease;
+}
+.card:hover{
+	transform: scale(1.1);
+	
+
+}
+.icon{
+	color: #7BC42D;
+	font-size: 8em;
+	text-align: center ;
+}
+.info{
+	text-align: center;
+	font-size: 1em;
+	font-weight: 500;
+}
+.info h3{
+	color: #7BC42D;
+	font-size: 1.2em;
+	margin: 10px;
+	font-weight: 700;
+
+}.projects{
+	margin-top: 10px;
+	background-color:black ;
+	border-bottom: 1.5px solid #595b5b;
+	
+	
+	
+}.projects h2{
+	color: rgb(177, 133, 23);
+}
+.projects.content{
+	margin-top: 30px;
+	
+	
+}
+.project-card{
+	background-color: #fff;
+	border:1px solid #fff;
+	min-height: 14em;
+	width: 20em;
+	overflow:hidden ;
+	border-radius: 10px;
+	margin: 20px;
+transition: 0.7s ease;
+}.project-card:hover{
+	transform: scale(1.1);
+}
+.project-image img{
+	
+	width:100%;
+}
+.content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 100%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th,
+.content-table td {
+    padding: 120px 150px;
+}
+
+.content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}.project-info{
+	padding: 1em;
+}.project-category{
+	font-size:0.8em ;
+	color: black;
+}.project-title{
+	display: flex;
+	justify-content: space-between ;
+	text-transform:uppercase ;
+	font-weight: 800;
+	margin-top: 10px;
+
+}.more-details{
+	text-decoration: none;
+	color: green;
+}.more-details:hover{
+	color:#e78207;
+}
+.contact .icon{
+	font-size: 4.5em;
+}.contact .info h3{
+	color: black;
+}.dropdown:hover .dropbtn {
+	background-color: #45a049;
+  }
+.footer{
+	background-color: black;
+	color: white;
+	padding: 2em;
+	display: flex;
+	justify-content: space-between;
+}
+.footers{
+	background-color: orange;
+}
+.footer-title{
+
+	font-size: 1.3em;
+	font-weight: 600;
+}
+.footer-title span{
+	color: rgb(2, 112, 26);
+}
+/*@media (max-width:1023px){
+	header {
+		padding: 12px 20px;
+
+	}.navigation a{
+		padding-left:10px ;
+	}
+	.title{
+		font-size: 1.8em;
+	}
+	section{
+		padding: 80px 20px;
+	}
+	.main h2{
+		 font-size: 1em;
+		}
+		.main h3{
+			font-size: 1.6em;
+		}
+		.content{
+			flex-direction: column;
+			align-items: center;
+		}
+}@media(max-width:641){
+body{
+	font-size: 12px;
+
+}.main h2{
+	font-size: 0.8em;
+}main h3{
+	font-size: 1.4em;
+}
+}@media(max-width:300px){
+	body{
+		font-size: 10px;
+	}
+	
+}*/
+@media (max-width:1023px){
+    header{
+		
+        padding: 12px 20px;
+    }
+
+    .navigation a{
+        padding-left: 10px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .main-content h2{
+        font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+     
+    }
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+	width: 100%; /* Full width */
+	padding: 12px; /* Some padding */ 
+	border: 1px solid #ccc; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+	background-color: rgba(10, 110, 10, 0.936);
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+	background-color: black;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+	
+	border-radius: 5px;
+	background-color: #f2f2f2;
+	padding: 20px;
+  }
+  /*#about1{
+	
+  }*/
